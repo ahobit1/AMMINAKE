@@ -10,7 +10,8 @@
 	  <center><label name="Dil">Dil Seç</label></center>
       <div>
 	      <form name="webpage">
-          <center><select name="Türkçe" id="Türkçe"></center>
+          <center><select name="Suriyece" id="Suriyece"></center>
+		      <option value="Suriyece.html">Suriyece</option>
 	          <option value="Türkçe.html">Türkçe</option>
 	          <option value="Kürtçe.html">Kürtçe</option>
 			  <option value="Vadaa.html">Vadaa</option>
@@ -19,14 +20,13 @@
 			  <option value="Since1950.html">Since 1950</option>
 			  <option value="HerşeyRüya.html">Herşey Rüya</option>
 			  <option value="Japonca.html">Japonca</option>
-			  <option value="Suriyece.html">Suriyece</option>
 	      </select>
       </div>
       <p id="SelectedLanguage"></p>
 	  
 	 </div>
 	 <script>
-	     var urlMenu = document.getElementById('Türkçe'); 
+	     var urlMenu = document.getElementById('Suriyece'); 
 		 urlMenu.onchange = function()
 		 {
 		     var useroption = this.options[this.selectedIndex];
@@ -38,6 +38,6 @@
 			 }
 		 }
 	 </script>
-	 <center><video src="Türkçe.mp4", controls width="1300"></video></center>
+	 <center><video src="Suriyece.mp4", controls width="1300"></video></center>
   </body>
 </html>
